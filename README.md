@@ -6,7 +6,7 @@
 
 FROM openjdk:17
 WORKDIR /app
-COPY /studentMarks-0.0.1-SNAPSHOT.jar .
+COPY ./studentMarks-0.0.1-SNAPSHOT.jar .
 EXPOSE 2222:2222
 ENTRYPOINT [ "java","-jar","studentMarks-0.0.1-SNAPSHOT.jar" ]
 
