@@ -31,3 +31,14 @@ docker pull username/image
 docker run -d -p port:port username/image
 
 ```
+
+## Docker install in ubuntu EC2
+
+```shell
+
+sudo su
+apt install
+sudo apt-get update
+apt install docker.io
+
+```
